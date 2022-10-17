@@ -1,4 +1,4 @@
-package BinarySearch;
+package binarysearch;
 
 
 public class SearchInsertLocation35v1 {

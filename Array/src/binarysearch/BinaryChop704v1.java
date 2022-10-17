@@ -1,4 +1,4 @@
-package BinarySearch;
+package binarysearch;
 
 public class BinaryChop704v1 {
     /**
