@@ -16,8 +16,11 @@ import java.util.Arrays;
  * 排序
  */
 
-// 绝对值排序问题，最大值是从左右两端产生的，所以对左右两端的数进选择最大值排序，
-//  双指针分别指向左右两端，从两端逐渐排序。
+//那么数组平方的最大值就在数组的两端，不是最左边就是最右边，不可能是中间。
+//
+//        此时可以考虑双指针法了，i指向起始位置，j指向终止位置。
+//
+//        定义一个新数组result，和A数组一样的大小，让k指向result数组终止位置。
 // 时间复杂度为O(n)
 public class SortedSquares977v2 {
     public static int[] sortedSquares(int[] nums) {
